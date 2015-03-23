@@ -1,0 +1,2697 @@
+2015/01/21 13:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/listing/user_listing_step2/listid/167
+
+---
+
+2015/01/21 13:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "listing/user_listing_step2/listid/ajax-loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('listing/user_li...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/listing/user_listing_step2/listid/ajax-loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/listing/user_listing_step2/listid/167
+
+---
+
+2015/01/21 13:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/clients/client1/web5/web/runtime/business/js/chosen.jquery.js".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('var/www/clients...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/var/www/clients/client1/web5/web/runtime/business/js/chosen.jquery.js
+
+HTTP_REFERER=http://business-supermarket.com/listing/retail
+
+---
+
+2015/01/21 13:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/listing/retail
+
+---
+
+2015/01/21 14:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/js/1.10.2-jquery.min.js".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/js/1.10.2-jquery.min.js?ver=3.3.1
+
+---
+
+2015/01/21 14:35:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/clients/client1/web5/web/runtime/business/js/chosen.jquery.js".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('var/www/clients...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/var/www/clients/client1/web5/web/runtime/business/js/chosen.jquery.js
+
+HTTP_REFERER=http://business-supermarket.com/listing/retail
+
+---
+
+2015/01/21 14:35:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/listing/retail
+
+---
+
+2015/01/21 14:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/21 14:36:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/21 14:36:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/listing/retail
+
+---
+
+2015/01/21 16:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/listing/preview_user_listing/listid/167
+
+---
+
+2015/01/21 17:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/listing/preview_user_listing/listid/165
+
+---
+
+2015/01/21 17:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/listing/view?id=165
+
+---
+
+2015/01/21 17:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/21 17:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/21 17:56:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "listing/images/samples.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('listing/images/...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/listing/images/samples.png
+
+HTTP_REFERER=http://business-supermarket.com/listing/view?id=165
+
+---
+
+2015/01/21 17:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "listing/images/user_auction_view.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('listing/images/...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/listing/images/user_auction_view.png
+
+HTTP_REFERER=http://business-supermarket.com/listing/view?id=165
+
+---
+
+2015/01/21 17:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "listing/images/investor-area-none-investor.jpg".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('listing/images/...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/listing/images/investor-area-none-investor.jpg
+
+HTTP_REFERER=http://business-supermarket.com/listing/view?id=165
+
+---
+
+2015/01/21 17:56:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "listing/images/investment.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('listing/images/...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/listing/images/investment.png
+
+HTTP_REFERER=http://business-supermarket.com/listing/view?id=165
+
+---
+
+2015/01/21 18:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/
+
+---
+
+2015/01/21 18:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/21 18:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/21 19:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/
+
+---
+
+2015/01/21 19:33:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://business-supermarket.com/
+
+---
+
+2015/01/21 19:33:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://business-supermarket.com/
+
+---
+
+2015/01/21 23:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/robots.txt
+
+---
+
+2015/01/22 03:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/robots.txt
+
+---
+
+2015/01/22 05:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/robots.txt
+
+---
+
+2015/01/22 06:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/robots.txt
+
+---
+
+2015/01/22 06:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/favicon.ico".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('images/favicon....')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/images/favicon.ico
+
+---
+
+2015/01/22 06:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/dashboard
+
+---
+
+2015/01/22 06:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings
+
+---
+
+2015/01/22 06:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/22 06:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings
+
+---
+
+2015/01/22 06:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/22 06:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/user/myaccount/update
+
+---
+
+2015/01/22 06:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings
+
+---
+
+2015/01/22 06:50:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/listing
+
+---
+
+2015/01/22 06:50:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/listing/selectlisting/listid/165
+
+---
+
+2015/01/22 06:50:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/user/myaccount/update
+
+---
+
+2015/01/22 06:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 06:50:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 07:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "photo-upload".' in /var/www/clients/client1/web5/web/framework/web/CController.php:483
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CController.php(270): CController->missingAction('photo-upload')
+
+#1 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(282): CController->run('photo-upload')
+
+#2 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/listings/...')
+
+#3 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#4 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#5 {main}
+
+REQUEST_URI=/admin/listings/listings/photo-upload/logo_listing.php
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:06:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loading.gif".' in /var/www/clients/client1/web5/web/framework/web/CController.php:483
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CController.php(270): CController->missingAction('loading.gif')
+
+#1 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(282): CController->run('loading.gif')
+
+#2 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/listings/...')
+
+#3 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#4 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#5 {main}
+
+REQUEST_URI=/admin/listings/listings/loading.gif
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/photo-upload/logo_listing.php
+
+---
+
+2015/01/22 07:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/listings/images/robot/robot-upload.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/listings/...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/admin/listings/images/robot/robot-upload.png
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:07:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/
+
+---
+
+2015/01/22 07:07:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 07:07:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 07:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/listings/images/robot/robot-upload.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/listings/...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/admin/listings/images/robot/robot-upload.png
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:09:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "photo-upload".' in /var/www/clients/client1/web5/web/framework/web/CController.php:483
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CController.php(270): CController->missingAction('photo-upload')
+
+#1 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(282): CController->run('photo-upload')
+
+#2 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/listings/...')
+
+#3 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#4 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#5 {main}
+
+REQUEST_URI=/admin/listings/listings/photo-upload/logo_listing.php
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:09:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loading.gif".' in /var/www/clients/client1/web5/web/framework/web/CController.php:483
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CController.php(270): CController->missingAction('loading.gif')
+
+#1 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(282): CController->run('loading.gif')
+
+#2 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/listings/...')
+
+#3 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#4 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#5 {main}
+
+REQUEST_URI=/admin/listings/listings/loading.gif
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:09:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/photo-upload/logo_listing.php
+
+---
+
+2015/01/22 07:09:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://business-supermarket.com/
+
+---
+
+2015/01/22 07:09:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:14:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/sample.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/sample.css
+
+HTTP_REFERER=http://business-supermarket.com/admin/listings/listings/update?id=167
+
+---
+
+2015/01/22 07:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/wp-login.php
+
+---
+
+2015/01/22 07:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administrator".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/administrator/
+
+---
+
+2015/01/22 07:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin.php".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('admin.php')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/admin.php
+
+---
+
+2015/01/22 08:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/22 08:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 08:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 09:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 09:13:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 09:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 09:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 09:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 09:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:11:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:17:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:19:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:27:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:28:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:29:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:30:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:35:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:35:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:35:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:37:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:37:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:37:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:38:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:39:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:40:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://www.dragonsnet.biz/listing/view?id=167
+
+---
+
+2015/01/22 10:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:47:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 10:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/22 10:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 10:48:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 10:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/22 10:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 10:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 10:48:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/user/myaccount/update
+
+---
+
+2015/01/22 10:48:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 10:48:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 10:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crossdomain.xml".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('crossdomain.xml')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/crossdomain.xml
+
+HTTP_REFERER=http://dragonsnet.biz/businesslisting/business_listing_step2/blistid/2
+
+---
+
+2015/01/22 10:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crossdomain.xml".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('crossdomain.xml')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/crossdomain.xml
+
+HTTP_REFERER=http://dragonsnet.biz/businesslisting/business_listing_step2/blistid/2
+
+---
+
+2015/01/22 10:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 11:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 11:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/724ac12c/css/forum.css".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/724ac12c...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/assets/724ac12c/css/forum.css
+
+---
+
+2015/01/22 11:35:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 11:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dragonsnet/images/robot/Robot-pointing-down.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('dragonsnet/imag...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/dragonsnet/images/robot/Robot-pointing-down.png
+
+HTTP_REFERER=http://localhost/supermarket_latest/var/www/listing/view?id=162
+
+---
+
+2015/01/22 12:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/22 12:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 12:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 12:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/22 12:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 12:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 12:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/22 12:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/22 12:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/23 13:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/23 13:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/23 13:52:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/23 13:52:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/23 13:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/23 13:52:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/23 13:52:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/23 14:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/images/loader.gif".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/images/loader.gif
+
+HTTP_REFERER=http://www.business-supermarket.com/
+
+---
+
+2015/01/23 14:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-background.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-background.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+2015/01/23 14:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/business/css/images/pink-bubble-top.png".' in /var/www/clients/client1/web5/web/framework/web/CWebApplication.php:286
+
+Stack trace:
+
+#0 /var/www/clients/client1/web5/web/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/business...')
+
+#1 /var/www/clients/client1/web5/web/framework/base/CApplication.php(180): CWebApplication->processRequest()
+
+#2 /var/www/clients/client1/web5/web/www/index.php(14): CApplication->run()
+
+#3 {main}
+
+REQUEST_URI=/themes/business/css/images/pink-bubble-top.png
+
+HTTP_REFERER=http://www.business-supermarket.com/themes/business/css/style.css
+
+---
+
+

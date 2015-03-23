@@ -1,0 +1,68 @@
+/*  Theme Name: BusinessTheme 
+    URI: http://www.business-supermarket.com 
+	Description: These are additional styles created for search module
+    Title       : Search CSS
+    Author      : Anand
+    Author email: anand.seed@gmail.com
+    Version     : 0.1
+*/
+
+#search input[type="submit"] {
+    background: url("../images/buttons/search-button.png") no-repeat scroll left center transparent;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    vertical-align: top;
+    width: 30px;
+}
+
+#search input[type="text"] {
+   padding: 2px 0px 2px 5px;
+margin-right: -5px;
+border-radius: 4px;
+border: 1px solid #5C5C5C;
+width: 265px;
+}
+.site_search{
+    margin: 15px;
+}
+
+.SearchPageNumbers a {
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.listing_title{
+	color:#A84793;
+	font-size: 15px;
+}
+
+.listing_desc{
+	color: #DA8FCA;
+	font-size: 12px;
+}
+
+.searchTbl{
+	background-color:#fff; 
+	cursor:pointer;
+}
+
+.close_caform {
+    position: absolute;
+    top: -69px;
+    float: right;
+    right: 243px;
+    z-index: 100;
+}
+
+.sortby {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #000000;
+}
+
+div#search {
+float: right;
+margin-top: -19px;
+}

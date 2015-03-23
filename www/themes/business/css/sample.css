@@ -1,0 +1,423 @@
+/*  Theme Name: BusinessTheme 
+    URI: http://www.business-supermarket.com 
+	Description: These are additional styles created for listing modules
+    Title       : Samples CSS
+    Author      : Jag
+    Author email: dsp7@blueyonder.co.uk
+    Version     : 0.1
+*/
+
+/* -----------------------------------------------------------------------------
+    Samples CSS
+------------------------------------------------------------------------------*/
+
+/*	Request a sample */
+.request_sample_container
+{
+	float:left;
+}
+.request_sample_title
+{
+	color: #A84793;
+    font-family: AuraBoldRegular,Helvetica,Arial;
+    font-size:2.1em;
+    margin-bottom: 0;
+	font-weight:normal;
+	text-align:center;
+}
+.request_sample_sub_title
+{
+	color: #222222;
+ 
+    font-size:1.1em;
+    margin-bottom: 0;
+	font-weight:normal;
+	text-align:center;
+	padding-bottom:8px;
+}
+.request_sample_title_desc
+{
+	font-size:.9em;
+	text-align:center;
+	color:#aaa;
+	padding-bottom:8px;}
+.request_sample_leftcontent
+{
+	float:left;
+	margin-right:10px;
+	width:62%
+}
+.reuest_sample_section_title
+{
+	font-size:1.2em;
+	color:#95e1e4;
+	 font-family: AuraBoldRegular,Helvetica,Arial;
+	 padding-bottom:4px;
+	 float:left;
+	 margin:0;
+}
+.reuest_sample_section_para
+{
+	padding:0 2px;
+	background:#ede5f2;
+	font-size:.9em;
+	margin-bottom:15px;
+	float:left;
+}
+.request_sample_form_container
+{
+	float:left;
+	
+	width:100%;
+	background:#ede5f2;
+
+}
+.request_sample_form_list
+{
+	list-style:none;
+	padding:5px;
+	float:left;
+}
+.request_sample_form_list li
+{
+	margin:8px 0;
+	overflow:hidden;
+}
+.request_sample_form_list li label
+{
+	float:left;
+	width:118px;
+	text-align:right;
+	margin-right:5px;
+}
+.request_sample_form_list li input[type="text"]
+{
+	background:#E9D4EE;
+	border:none;
+	
+}
+.request_form_right
+{
+	float:left;
+	width:36%;
+	margin-left:10px;
+	
+}
+.request_form_right label
+{
+	width:100%;
+	display:block;
+	padding:8px 0 4px;
+}
+.request_form_right textarea
+{
+	height:95px;
+	width:100%;
+	resize:none;
+	background:#E9D4EE;
+	border:none;
+	
+}
+.request_agree_text
+{
+	float:left;
+	padding:5px;
+}
+.request_agree_text input[type='checkbox']
+{
+	margin:20px;
+}
+.text_center
+{
+	text-align:center !important;
+}
+.centered
+{
+	margin:10px auto;
+	width:15%;
+}
+.request_form_right_container
+{
+	width:35%;
+	float:left;
+	
+}
+.healthy_content
+{
+	width:98%;
+	padding:5px;
+	border-radius:10px;
+	background:#EDE5F2;
+	
+}
+.pink_title
+{
+	display:block;
+	padding:5px 0;
+	text-decoration:underline;
+	color:#AA5AA0;
+}
+.veiw_online
+{
+	width:75px;
+	padding-top:35px;
+	text-align:center;
+	margin:5px 20px;
+	display:block;
+	float:left;
+	background:url(../images/veiw_online.png) 22px 10px no-repeat;
+	
+}
+.download_icon
+{
+	width:75px;
+	padding-top:35px;
+	text-align:center;
+	margin:5px 20px;
+	display:block;
+	float:left;
+	background:url(../images/pdf_icon.png) 19px 0px no-repeat ;
+	
+}
+.black_button
+{
+	padding:3px 15px;
+	border:none;
+	background: #4c4c4c;
+background: -moz-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313));
+background: -webkit-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+background: -o-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+background: -ms-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 );
+color:#fff;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+
+}
+.request_input_button
+{
+	margin:5px auto;
+	background:none;
+	border:none;
+	color:#DBB0DD;
+	padding:5px 34px 5px 5px ;
+	background:url(../images	/request_submit_bg.png) no-repeat center right;
+}
+.timer_container
+{
+	border:1px solid #666;
+	width:100%;
+	padding:8px 0;
+	text-align:center;
+	margin-top:20px;
+}
+.timer_container img
+{
+	width:150px;
+}
+.open_bidding_note
+{
+	color:#9B9B9B;
+	font-size:1.1em;
+	font-style:italic;
+	padding:6px 0px;
+	text-align:center;
+	font-weight:bold;
+}
+.bd_question
+{
+	display:block;
+	padding-bottom:5px;
+	font-weight:bold;
+	color:#B75C93;
+}
+.bid_text1
+{
+	width:98%;
+	padding:5px;
+	background:#EBDEEF;
+	border:1px solid #CCC3D0;
+	min-height:100px;
+	margin-bottom:20px;
+	
+}
+.bid_text2
+{
+	width:98%;
+	padding:5px;
+	background:#EBDEEF;
+	border:1px solid #CCC3D0;
+	min-height:70px;
+	margin-bottom:20px;
+}
+.bid_detail_list 
+{
+	overflow:hidden;
+	float:left;
+	width:100%;
+	margin:20px auto;
+}
+.bid_detail_list li
+{
+	float:left;
+	padding:0 6px;
+	list-style:none;
+
+}
+.bid_detail_list li a,.bid_detail_list li p
+{
+	font-size:.8em;
+}
+.quetion_icon
+{
+	float:left;
+	display:block;
+	height:17px;
+	width:15px;
+	background:#009EE3;
+	color:#000;
+	text-align:center;
+	line-height:15px;
+	margin-left:5px;
+	font-weight:bold;
+}
+.bid_detail_list li a.blue_price
+{
+	color:#09A8E8;
+	font-size:1.1em;
+	color:#000;
+}
+.bid_detail_list li a.red_price
+{
+	color:#E6201D;
+	font-size:1.1em;
+	
+}
+.bid_detail_list li label
+{
+	display:block;
+	padding-bottom:10px;
+	font-weight:bold;
+	font-size:1em;
+	text-align:center;
+	
+}
+.bid_detail_list li p input[type="text"]
+{
+	width:80px;
+	border:1px solid #9E9F9E;
+	float:left;
+}
+.bid_detail_list li p span
+{
+	float:left;
+	display:block;
+	width:70px;
+	text-align:right;
+}
+.bid_detail_list li p.bid_agree
+{
+
+
+	float:left;
+	width:80%;
+	font-size:.7em;
+}
+.bid_instructions p
+{
+	font-size:1em;
+	color:#000;
+	margin-bottom:0;
+}
+.bid_instructions span
+{
+	color:#ccc;
+	font-style:italic;
+}
+.bidder_table
+{
+	width:100%;
+}
+.bidder_table td
+{
+	text-align:center;
+}
+.open_investment_table
+{
+	width:90%;
+	margin:0 auto;
+}
+.open_investment_table td
+{
+	text-align:center;
+}
+.open_investment_table thead
+{
+	color:#45BBEC;
+}
+.red_price
+{
+	color:#E83534;
+}
+.expected_list
+{
+	width:86%;
+	margin:20px auto;
+	overflow:hidden;
+}
+.expected_list li
+{
+	float:left;
+	margin-right:1px;
+	list-style:none;
+}
+.expected_list li span
+{
+	margin-top:13px;
+	display:block;
+	padding:2px;
+}
+.expected_list li p
+{
+	margin-bottom:0;
+	text-align:center;
+}
+.expected_list li input[type="text"]
+{
+	
+	width:100px;
+	border:none;
+	background:#D0A9D0;
+	padding:2px;}
+.investment_field
+{
+	margin:0 auto;
+	width:200px;
+}
+.investment_field input[type="text"]
+{
+	width:200px;
+	padding:5px;
+	border:1px solid #eee;
+	background:#ccc;
+	margin:0 auto;
+	
+}
+.consdriation_text 
+{
+	width:60%;
+	margin:20px auto;
+}
+.consdriation_text p
+{
+	float:left;
+}
+.consdriation_text input[type="checkbox"]
+{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+}

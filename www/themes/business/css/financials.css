@@ -1,0 +1,230 @@
+
+/* ================================================================================================ */
+/*	Financials container																		  	*/
+/*																									*/
+/* 	note this style sheet uses parts of the listings CSS with mods to target this page		 		*/
+/*																									*/
+/* ================================================================================================ */
+
+
+#wrapperFinancial {
+	position:relative;
+	margin:auto;
+	padding-top:10px;
+	padding-bottom:20px;
+	width:660px;
+	background: none;
+	font-family:AuraLightRegular;
+} /* main wrapper / container for this section */
+
+
+/************************************************************************************************/
+/* Style Statement details on the left 															*/
+/************************************************************************************************/
+
+
+
+#account {
+    width: 726px;
+    padding:30px 10px 10px 10px;
+} /* Manage my financials drop down menu */
+
+
+#accountDetails {
+	width:300px;
+	float:left;
+	margin:-20px 0 10px 0;
+} /* Account holder details column top left */
+
+#accountDetails p span {
+	color: #A84793;
+	font-family:AuraBoldRegular;
+} /* data extracted from database for this account */
+
+/************************************************************************************************/
+/* Style Statement Summary on the right & Buttons												*/
+/************************************************************************************************/
+
+
+#balance {
+	width:330px;
+	float:right;
+	padding:0 10px 12px 0;
+	text-align:right;
+	margin:-88px 0 0 10px;
+} /* balance container top right */
+
+/* Focus */
+	 input#addFundsValue:focus {
+		border: 1px solid #00ff00;
+	} /* Puts green boarder arounded selected field */
+
+	 input#withdrawFundsValue:focus {
+		border: 1px solid #ff0000;
+	} /* Puts red boarder arounded selected field */
+	
+	
+input#accountBalanceValue,	
+input#addFundsValue,
+input#withdrawFundsValue {
+	text-align:right;
+	font-size:1.2em;
+	font-weight:bold;
+	background: url(../images/bg-input-gradient.png) repeat-x 0 0;
+        border:1px solid #808080;
+	height: 24px;
+} /* 3D background */	
+
+
+#accountBalanceValue {
+	position:relative;
+	left:8px;
+	top:0px;
+	padding:0 5px 0 0;
+
+}
+
+#addFundsValue {
+	position:relative;
+	top:1px;
+	left:8px;
+	padding:0 5px 0 0;
+
+}
+
+#withdrawFundsValue {
+	position:relative;
+	top:1px;
+	left:8px;
+	padding:0 5px 0 0;
+
+}
+
+.accountBalance {
+	width:108px;
+	float:left;
+	text-align:right;
+}
+
+
+.addFunds {
+	display:block;
+	width:96px;
+	height:37px;
+	margin:15px 8px 8px 8px;
+	background:url('http://error404.000webhost.com/?');
+} /* Problem in IE span text covers button active condition. Works okay in Fire Fox */
+
+
+.addFunds span {
+	float:left;
+	margin:8px 0 0 20px;
+}
+
+.addFunds span:hover,
+.withdrawFunds span:hover {
+	font-family:AuraBoldRegular;
+	color:#FFF;
+}
+
+.withdrawFunds span {
+	float:left;
+	margin:8px 0 0 6px;	
+}
+
+
+.addFunds:hover {
+	background:url('http://error404.000webhost.com/?');
+}
+
+
+.addFunds:active {
+	background:url('http://error404.000webhost.com/?');
+}
+
+.withdrawFunds {
+	display:block;
+	width:96px;
+	height:37px;
+	margin:-35px 8px 8px 8px;
+	background:url('http://error404.000webhost.com/?');
+}
+
+.withdrawFunds:hover {
+	background:url('http://error404.000webhost.com/?');
+}
+
+
+.withdrawFunds:active {
+	background:url('http://error404.000webhost.com/?');
+}
+
+
+
+
+
+/************************************************************************************************/
+/* Style Table 																					*/
+/************************************************************************************************/
+
+#statement {
+	width:500px;
+	clear:both;
+	margin:10px auto 10px auto;
+	border: 1px solid #C5E0B7;
+} /* container for table */
+
+
+#statement
+table tr th {
+	font-weight:normal;	
+	border: 1px solid #C5E0B7;
+} /* Bold text for table headings */
+
+
+#statement
+table tr td#statementDate {
+	width:50px;
+}
+
+#statement
+table tr td#statementType {
+	width:75px;
+}
+
+
+#statement
+table tr td#statementDescription {
+	width:400px;
+} /* sets description column width */
+
+
+#statement
+table tr td#statementIn {
+	text-align:right;
+} /* right align paid in column */
+
+table tr td#statementOut,
+table tr td#statementIn,
+table tr td#statementBalance {
+	text-align:right;
+} /* right align balance column */
+
+#highLight {
+	background-color:#f2f2f2;
+} /* grey background to make rows standout in table */
+
+tr th#statementOut,
+tr th#statementIn,
+tr th#statementBalance {
+	text-align:right;
+	width:100px;
+} /* Aligns text in paid in/out and balance columns */
+
+tr th#statementDate,
+tr td#statementDescription,
+tr td#statementDate, 
+tr th#statementDescription {
+	text-align:left;
+} /* Aligns text in date and description columns */
+

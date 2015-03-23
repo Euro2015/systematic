@@ -1,0 +1,47 @@
+ffmpeg version 2.1.1 Copyright (c) 2000-2013 the FFmpeg developers
+  built on Dec 20 2014 10:34:55 with gcc 4.7 (Debian 4.7.2-5)
+  configuration: --enable-gpl --enable-nonfree --enable-postproc --enable-pthreads --enable-x11grab --enable-swscale --enable-version3 --enable-shared --disable-yasm --enable-filter=movie --enable-frei0r --enable-libdc1394 --enable-libfaac --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-libfreetype --enable-libvorbis --enable-libgsm --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvpx --enable-libvo-amrwbenc --enable-libvo-aacenc --enable-libaacplus --enable-libxavs --enable-bzlib --enable-openssl --enable-gnutls --enable-openal --enable-libv4l2 --enable-libpulse --enable-libmodplug --enable-libass --enable-libcdio --enable-vdpau --enable-libbluray
+  libavutil      52. 48.101 / 52. 48.101
+  libavcodec     55. 39.101 / 55. 39.101
+  libavformat    55. 19.104 / 55. 19.104
+  libavdevice    55.  5.100 / 55.  5.100
+  libavfilter     3. 90.100 /  3. 90.100
+  libswscale      2.  5.101 /  2.  5.101
+  libswresample   0. 17.104 /  0. 17.104
+  libpostproc    52.  3.100 / 52.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/var/www/dragonsnet.co/web/www/temp/0129988001425375543.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 1
+    compatible_brands: isomavc1mp42
+    creation_time   : 2014-11-03 01:13:47
+  Duration: 00:01:00.07, start: 0.000000, bitrate: 290 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 300x250 [SAR 1:1 DAR 6:5], 242 kb/s, 25 fps, 25 tbr, 25 tbn, 50 tbc (default)
+    Metadata:
+      creation_time   : 2014-11-03 01:13:44
+      handler_name    : GPAC ISO Video Handler
+    Stream #0:1(und): Audio: aac (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 46 kb/s (default)
+    Metadata:
+      creation_time   : 2014-11-03 01:13:47
+      handler_name    : GPAC ISO Audio Handler
+Please use -b:a or -b:v, -b is ambiguous
+Output #0, flv, to '/var/www/dragonsnet.co/web/www/upload/users/jats_879/videos/0129988001425375543.flv':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 1
+    compatible_brands: isomavc1mp42
+    encoder         : Lavf55.19.104
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p, 512x384 [SAR 9:10 DAR 6:5], q=2-31, 1000 kb/s, 1k tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2014-11-03 01:13:44
+      handler_name    : GPAC ISO Video Handler
+    Stream #0:1(und): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 44100 Hz, mono, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2014-11-03 01:13:47
+      handler_name    : GPAC ISO Audio Handler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 -> flv)
+  Stream #0:1 -> #0:1 (aac -> libmp3lame)
+Press [q] to stop, [?] for help
+frame=   99 fps=0.0 q=2.7 size=     580kB time=00:00:03.96 bitrate=1197.8kbits/s    frame=  208 fps=207 q=4.4 size=    1213kB time=00:00:08.30 bitrate=1197.2kbits/s    frame=  317 fps=210 q=4.0 size=    1811kB time=00:00:12.66 bitrate=1171.5kbits/s    frame=  423 fps=210 q=9.0 size=    2471kB time=00:00:16.98 bitrate=1191.8kbits/s    frame=  533 fps=212 q=3.9 size=    3027kB time=00:00:21.36 bitrate=1160.5kbits/s    frame=  645 fps=214 q=2.8 size=    3554kB time=00:00:25.80 bitrate=1128.3kbits/s    frame=  753 fps=214 q=3.5 size=    4145kB time=00:00:30.61 bitrate=1109.0kbits/s    frame=  857 fps=213 q=4.1 size=    4742kB time=00:00:34.48 bitrate=1126.5kbits/s    frame=  961 fps=213 q=4.1 size=    5427kB time=00:00:38.79 bitrate=1146.0kbits/s    frame= 1060 fps=211 q=5.0 size=    5941kB time=00:00:42.63 bitrate=1141.5kbits/s    frame= 1158 fps=210 q=7.2 size=    6498kB time=00:00:46.49 bitrate=1144.8kbits/s    frame= 1268 fps=211 q=4.7 size=    7144kB time=00:00:50.80 bitrate=1151.8kbits/s    frame= 1372 fps=210 q=4.5 size=    7664kB time=00:00:55.11 bitrate=1139.1kbits/s    frame= 1475 fps=210 q=4.7 size=    8210kB time=00:00:59.45 bitrate=1131.2kbits/s    frame= 1500 fps=210 q=4.5 Lsize=    8373kB time=00:01:00.08 bitrate=1141.6kbits/s    
+video:7374kB audio:939kB subtitle:0 global headers:0kB muxing overhead 0.719066%

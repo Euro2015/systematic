@@ -1,0 +1,66 @@
+/*  Theme Name: BusinessTheme 
+    URI: http://www.business-supermarket.com 
+	Description: These are additional styles created for listing modules
+    Title       : Banner module CSS
+    Author      : Jag
+    Author email: dsp7@blueyonder.co.uk
+    Version     : 0.1
+*/
+
+/* -----------------------------------------------------------------------------
+    Banner module styles
+------------------------------------------------------------------------------*/
+
+.banner-add-section{}
+.banner-add-section .orange-color{ color:#e5a04d;}
+.banner-add-section .mrg-left-20{ margin-left:-20px;}
+.banner-add-section .offer-label{color:#A47A8F; font-size:12px; line-height:8px;}
+
+.banner-add-section #navlist{margin-top:-12px}
+.banner-add-section #navlist li{color:#00acce;}
+.banner-add-section #navlist li.prev,
+.banner-add-section #navlist li.next{color:#C8C8C8;}
+
+.banner-add-section .width-80{ width:80px;}
+
+.banner-add-section .point-clc{float: left; margin:-15px 0 5px 0; text-align: center; width: 100%;}
+.banner-add-section .point-input{width:88%; text-align:right;}
+.banner-add-section .border-radius5{border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px;}
+
+.banner-add-section .color-blue{color: #00acce;}
+.banner-add-section .purple-color{color:#A84793;}
+
+.banner-add-section .submit-label{color:#A47A8F;  font-size:12px; line-height:8px;}
+
+.banner-add-section .renew-banner{float: right; margin-top: 35px; width: 80px;}
+.banner-add-section .update-banner{float:left; width:100%; margin:10px 0;}
+
+.banner-add-section .sl-select-purchase{float: left; width: 562px; margin: 12px 0 0 -5px;}
+.banner-add-section .select-banner{float:right; margin:-24px 10px 0 0; color:#808080;}
+
+.banner-add-section .banner-input{margin-bottom: 10px; color:#808080; cursor:default;}
+.banner-add-section .banner-link{float:left; margin:7px 10px 0 0; color:#808080;}
+
+.banner-add-section .upload-img{float:left; margin:7px 10px 0 0; cursor:pointer;}
+.banner-add-section .confirm-img{float: left; margin-top:12px; text-align: center; width: 71.3%; }
+.banner-add-section .banner-confirm-email{display:block; background:none; position:absolute; margin-top:-300px; margin-left:-100px;}
+.banner-add-section .banner-email-box{width:575px;}
+.banner-add-section .banner-robot{z-index:999999; position:relative; top:2px;}
+.banner-add-section .banner-account-popup{margin-top:-38px !important ; padding-left:5px; padding-right:5px;}
+.banner-add-section .brown-color{ color:#A52A2A;}
+
+.banner-add-section .success-submit{color:#1DBFD8; font-size:20px;}
+.banner-add-section .banner-note{font-style:italic; color:#666666; font-size:14px;}
+.banner-add-section .image-size{position:relative; top:-10px;}
+.banner-add-section .user-btn-img{border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px; margin-top:5px;}
+.banner-add-section .update-banner-lable{float:left; margin:7px 10px 0 0; cursor:pointer;}
+.banner-add-section .disable-input{width:90px; text-align:right;}
+.banner-add-section .currency-code{float: right; margin: 5px 0 -15px; text-align: center; width: 86%;}
+.banner-add-section .make-payment-lable{cursor:pointer;}
+.banner-add-section .payment-error{float: left; margin: 5px 0 -3px; text-align: center; width: 93%; color:red; display:none;}
+
+.banner-add-section .align-center{text-align:center;}
+
+
+
+/* Banner modules css  end */

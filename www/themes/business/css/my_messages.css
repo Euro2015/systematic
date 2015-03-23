@@ -1,0 +1,39 @@
+/*  Theme Name: DragonsnetTheme 
+    URI: http://dragonsnet.bizDescription: 
+    These are additional styles created for modules 16d
+    Title       : Sample CSS
+    Author      : Odesk Job
+    Author email: 
+    Version     : 0.1
+*/
+
+/*  Put name of module in this comment that the styles refer to i.e points module, banner module etc  */
+.gray-text{
+	font: AuraBoldRegular, Helvetica, Arial;
+	color:#999;
+}
+.odd{
+	background-color:#f1f0ef;
+}
+.even{
+	background-color:#e4d7ea;
+}
+.reply{
+	border:1px solid #999;
+	background-color:transparent;
+	width:100%;
+	margin-right:-37px
+}
+h2{
+	font: 24px AuraBoldRegular, Helvetica, Arial !important;
+}
+h3{
+	font: 18px AuraBoldRegular, Helvetica, Arial;
+}
+h4{
+	font: 16px AuraBoldRegular, Helvetica, Arial;
+}
+.up-rating{
+	color:green;
+}
+.down-rating{ color:red; }

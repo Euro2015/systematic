@@ -1,0 +1,30 @@
+ffmpeg version 2.1.1 Copyright (c) 2000-2013 the FFmpeg developers
+  built on Dec 20 2014 10:34:55 with gcc 4.7 (Debian 4.7.2-5)
+  configuration: --enable-gpl --enable-nonfree --enable-postproc --enable-pthreads --enable-x11grab --enable-swscale --enable-version3 --enable-shared --disable-yasm --enable-filter=movie --enable-frei0r --enable-libdc1394 --enable-libfaac --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-libfreetype --enable-libvorbis --enable-libgsm --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvpx --enable-libvo-amrwbenc --enable-libvo-aacenc --enable-libaacplus --enable-libxavs --enable-bzlib --enable-openssl --enable-gnutls --enable-openal --enable-libv4l2 --enable-libpulse --enable-libmodplug --enable-libass --enable-libcdio --enable-vdpau --enable-libbluray
+  libavutil      52. 48.101 / 52. 48.101
+  libavcodec     55. 39.101 / 55. 39.101
+  libavformat    55. 19.104 / 55. 19.104
+  libavdevice    55.  5.100 / 55.  5.100
+  libavfilter     3. 90.100 /  3. 90.100
+  libswscale      2.  5.101 /  2.  5.101
+  libswresample   0. 17.104 /  0. 17.104
+  libpostproc    52.  3.100 / 52.  3.100
+Input #0, avi, from '/var/www/dragonsnet.co/web/www/temp/0332963001424636898.avi':
+  Metadata:
+    encoder         : VirtualDubMod 1.5.10.2 (build 2540/release)
+  Duration: 00:00:54.60, start: 0.000000, bitrate: 923 kb/s
+    Stream #0:0: Video: mpeg4 (Advanced Simple Profile) (XVID / 0x44495658), yuv420p, 640x360 [SAR 1:1 DAR 16:9], 25 tbr, 25 tbn, 25 tbc
+    Stream #0:1: Audio: mp3 (U[0][0][0] / 0x0055), 48000 Hz, stereo, s16p, 128 kb/s
+Please use -b:a or -b:v, -b is ambiguous
+Output #0, flv, to '/var/www/dragonsnet.co/web/www/upload/users/jag_1/videos/0332963001424636898.flv':
+  Metadata:
+    encoder         : Lavf55.19.104
+    Stream #0:0: Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p, 512x384 [SAR 4:3 DAR 16:9], q=2-31, 1000 kb/s, 1k tbn, 30 tbc
+    Stream #0:1: Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 44100 Hz, stereo, s16p, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg4 -> flv)
+  Stream #0:1 -> #0:1 (mp3 -> libmp3lame)
+Press [q] to stop, [?] for help
+[mpeg4 @ 0x152ed00] Video uses a non-standard and wasteful way to store B-frames ('packed B-frames'). Consider using a tool like VirtualDub or avidemux to fix it.
+frame=   58 fps=0.0 q=2.4 size=     458kB time=00:00:02.87 bitrate=1306.0kbits/s    frame=  126 fps=125 q=3.2 size=     959kB time=00:00:05.56 bitrate=1411.6kbits/s    frame=  198 fps=131 q=4.6 size=    1391kB time=00:00:08.46 bitrate=1346.0kbits/s    frame=  274 fps=136 q=5.9 size=    1765kB time=00:00:11.52 bitrate=1255.3kbits/s    frame=  347 fps=138 q=4.9 size=    2128kB time=00:00:14.42 bitrate=1209.0kbits/s    frame=  416 fps=138 q=7.0 size=    2536kB time=00:00:17.19 bitrate=1208.5kbits/s    frame=  488 fps=139 q=9.2 size=    2929kB time=00:00:20.06 bitrate=1195.8kbits/s    frame=  560 fps=139 q=6.5 size=    3317kB time=00:00:22.93 bitrate=1184.8kbits/s    frame=  634 fps=140 q=5.0 size=    3705kB time=00:00:25.91 bitrate=1171.3kbits/s    frame=  709 fps=141 q=3.9 size=    4126kB time=00:00:28.91 bitrate=1168.8kbits/s    frame=  736 fps=117 q=6.2 size=    4271kB time=00:00:30.01 bitrate=1165.6kbits/s    frame=  770 fps=114 q=5.6 size=    4465kB time=00:00:31.34 bitrate=1166.7kbits/s    frame=  843 fps=116 q=6.5 size=    4858kB time=00:00:34.27 bitrate=1161.2kbits/s    frame=  912 fps=117 q=7.5 size=    5230kB time=00:00:37.06 bitrate=1155.8kbits/s    frame=  983 fps=119 q=8.2 size=    5622kB time=00:00:39.86 bitrate=1155.2kbits/s    frame= 1054 fps=120 q=7.3 size=    6029kB time=00:00:42.71 bitrate=1156.3kbits/s    frame= 1127 fps=121 q=5.5 size=    6423kB time=00:00:45.63 bitrate=1152.9kbits/s    frame= 1196 fps=122 q=5.0 size=    6814kB time=00:00:48.38 bitrate=1153.7kbits/s    frame= 1268 fps=123 q=6.6 size=    7202kB time=00:00:51.27 bitrate=1150.5kbits/s    frame= 1331 fps=123 q=5.6 size=    7540kB time=00:00:53.81 bitrate=1147.8kbits/s    frame= 1365 fps=124 q=5.6 Lsize=    7732kB time=00:00:54.63 bitrate=1159.4kbits/s    
+video:6824kB audio:854kB subtitle:0 global headers:0kB muxing overhead 0.707595%

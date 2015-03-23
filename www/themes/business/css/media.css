@@ -1,0 +1,35 @@
+/*  Theme Name: BusinessSupermarketTheme 
+    URI: http://www.business-supermarket.com 
+	Description: This is a custom theme developed for Business-Supermarket.com
+    Author: Jaginder Singh Mudhar
+    Author email: dsp7@blueyonder.co.uk
+	Date: 11/01/2015
+    Version: 0.1
+*/
+
+
+/* -----------------------------------------------------------------------------
+    video styles
+------------------------------------------------------------------------------*/
+
+.home-video-wrap {
+	position: relative;
+	margin: -120px 0px 14px 88px;
+}
+.video-close {
+	display: block;
+	position: relative;
+	left: 628px;
+	top: 12px;
+	z-index: 100;
+}
+
+/*  
+    Additional media styles
+    Module name:
+    Module revision:
+    Author: 
+    Author email: 
+    Date: 
+    Version No:
+*/

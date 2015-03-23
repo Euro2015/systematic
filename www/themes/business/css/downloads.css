@@ -1,0 +1,110 @@
+/*  Theme Name: DragonsnetTheme 
+    URI: http://dragonsnet.bizDescription: 
+    These are additional styles created for modules 16d
+    Title       : Market my listing
+    Author      : 
+    Author email: 
+    Version     : 0.1
+*/
+
+/*  Put name of module in this comment that the styles refer to i.e points module, banner module etc  */
+
+.download_tab {
+	float: left;
+	margin: 0 25px;
+	width: 580px;
+}
+.heading_part {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.paging {
+	float: right;
+}
+.download_tab .add-carousel {
+	margin: 10px 0 0;
+}
+.uploader-field {
+	float: left;
+	margin-right:20px;
+	width: 415px;
+}
+.table_style1 {
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+.table_style1 tr {
+	background:#eeeded;
+	height:30px;
+}
+.table_style1 tr:first-child {
+	background:none;
+}
+.table_style1 th {
+	color:#A84793;
+}
+.table_style1 td {
+	border-top:1px solid #abbe92;
+	border-right:1px solid #abbe92;
+	font-size: 14px;
+	padding: 4px 30px;
+}
+.table_style1 td:first-child {
+	border-left:1px solid #abbe92;
+}
+.table_style1 tr:last-child td {
+	border-bottom:1px solid #abbe92;
+}
+ .table_style1 tr:nth-child(2n+3) {
+background-color: #EADDED;
+}
+.table_style2 {
+	float: left;
+	width: 100%;
+}
+.download_tab h3 {
+	margin-bottom:4px;
+}
+.heading_part {
+	margin-bottom:20px;
+}
+.row {
+	float: left;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #94BE36;
+	padding-bottom: 20px;
+        width: 600px;
+}
+.download_tab textarea {
+	border: 1px solid #A84793;
+	float: left;
+	margin-top: 5px;
+	resize: none;
+	width: 100%;
+	height:70px;
+	margin-bottom: 20px;
+}
+.full_width {
+	width:100%;
+}
+input {
+	border: 1px solid #A84793;
+	padding: 4px;
+        cursor: pointer;
+}
+label {
+	color:#A84793;
+}
+.submit {
+	background:url(../images/btn-bg.gif) no-repeat;
+	border:none;
+	width:35px;
+}
+p.market_p{
+	  color: #565656;
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}

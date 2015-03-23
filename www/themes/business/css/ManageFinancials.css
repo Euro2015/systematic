@@ -1,0 +1,41 @@
+/*  Theme Name: BusinessSupermarketTheme 
+    URI: http://www.business-supermarket.com 
+    User my account manage my finacials styling
+    Module name: ManageFinancials
+    Module revision: Rev1.0
+    Author: Anand
+    Author email: 'Riadh Hamdi' <medriadh.hamdi@gmail.com>
+    Date: 16 January 2015
+    Version No: 1.0
+*/
+
+
+.ManageFinancials {
+    position: relative;
+    left: 7px;
+    width: 624px;
+    cursor:default;
+}
+
+.gernal_table tbody td {
+    border: 1px solid #c5e0b7;
+    padding: 8px 5px;
+}
+.empty-msg-box {
+    display: none;
+    height: 595px;
+    margin-top: 100px;
+    min-height: 460px;
+    position: absolute;
+    width: 855px;
+    z-index: 9999999;
+} /* enter a value popup */
+.withdraw-notice-box {
+    display: none;
+    height: 595px;
+    margin-top: 118px;
+    min-height: 460px;
+    position: absolute;
+    width: 835px;
+    z-index: 9999999;
+}

@@ -1,0 +1,190 @@
+
+/**
+ * 
+ * 
+ * @name forum.css : Css forum css
+ * @license Business Market
+ * @author Riadh H.
+ * @package Forum core
+ * 
+ *
+ */
+
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 99%;
+    height: 100%;
+    background-color: #808080;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+.white_content {
+    display: none;
+    position: absolute;
+    top: 33%;
+    left: 16%;
+    width: 66%;
+    height: 23%;
+    padding: 16px;
+    z-index:1002;
+    background: transparent;
+}
+
+.hiddenForm{
+    
+    display: none;
+}
+
+.forumPageNumbers a {
+    
+    cursor: pointer;
+    padding-left: 10px;
+    
+}
+
+.dd_coment_heading {
+    
+    overflow: visible !important;
+}
+
+.redText {
+    
+    color: #ED1C24 !important;
+}
+
+.reportAsSpam, .openCloseComments, .deleteComment { 
+ 
+    cursor: pointer;
+}
+
+.defaultCursor {
+    
+    cursor: default !important;
+}
+
+.grayedOut{
+    
+    color: #BDBDBD;
+}
+
+.attachement, .attachement-icon {
+    
+    cursor: pointer !important;
+    
+}
+
+.attachement-file, .hiddenPostComments {
+    
+    display: none;
+}
+
+.visiblePostComments {
+    
+    display: block;
+}
+    
+.morecontent span {
+    display: none;
+}
+
+.morelink {
+    display: block;
+    color:#F00;
+}
+
+.dd_coment_heading a {
+    float: left;
+    margin-right: 15px;
+    color: #808080;
+}
+
+.comments_button_list {
+    
+    overflow: visible !important;
+    
+}
+
+.comments_button_list .userReputation li {
+    float: none !important;
+}
+
+.comments_button_list .userProfession li {
+    float: none !important;
+}
+
+.userReputation .chzn-container {
+    
+    font-size: 10px !important;
+    font-weight: normal;
+}
+
+.userProfession .chzn-container {
+    
+    font-size: 10px !important;
+    font-weight: normal;
+}
+
+.userReputation .chzn-container-single .chzn-single{
+    
+    color: #808080;
+    text-decoration: none;
+    
+    display: block;
+    border-radius: 3px;
+    font-weight: bold;
+    border-right: 1px solid #BBB;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E7E7E7 #BBB #BBB;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background: linear-gradient(to bottom, #FFF 0%, #E5E5E5 46%) repeat scroll 0% 0% transparent;
+    height: 21px;
+    line-height: 22px;
+}
+
+.userProfession .chzn-container-single .chzn-single{
+    
+    color: #808080;
+    text-decoration: none;
+    
+    display: block;
+    line-height: 24px;
+    border-radius: 3px;
+    font-weight: bold;
+    border-right: 1px solid #BBB;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E7E7E7 #BBB #BBB;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background: linear-gradient(to bottom, #FFF 0%, #E5E5E5 46%) repeat scroll 0% 0% transparent;
+    line-height: 22px;
+}
+
+.userProfessionText, .userReputationText{
+		margin-bottom: 5px;
+                color: #B147AC;
+                font-weight: bold;
+		
+}
+.userProfessionSelect, .userReputationSelect{
+		position:relative;
+		float:left;
+}
+
+.viewByCriteria, .userReputation, .userProfession {
+    
+    margin-top: 17px;
+}

@@ -1,0 +1,11 @@
+1) Add  "businesslistinglisting " in config/main.php  as module list 
+
+2) Add below URL rule in urlManager 
+
+
+    'businesslisting/<action:\w+>'=>'businesslisting/businesslisting/<action>',
+    'businesslisting/<action:\w+>/blistid/<blistid:\d+>'=>'businesslisting/businesslisting/<action>',
+	
+
+
+ 

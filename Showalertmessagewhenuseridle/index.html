@@ -1,0 +1,63 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>Show alert message when user idle for sometime on webiste</title>
+<script type="text/javascript" src="ajax.jquery.js"></script>
+<script type="text/javascript" src="ajax.jquery-ui.js"></script>
+<script type="text/javascript" src="jquery.idle-timer.js"></script>
+<script type="text/javascript" src="jquery.timer.js"></script>
+<script type="text/javascript">
+
+$(function() {
+var timeout = 5000;
+$(document).bind("idle.idleTimer", function() {
+$("#status").html("User is idle :(").css("backgroundColor", "silver");
+Example1.Timer.stop();
+});
+$(document).bind("active.idleTimer", function() {
+$("#status").html("User is active :D").css("backgroundColor", "yellow");
+Example1.Timer.toggle();
+});   
+$.idleTimer(timeout);
+});
+
+var Example1 = new (function() {
+    var $stopwatch, // Stopwatch element on the page
+        incrementTime = 70, // Timer speed in milliseconds
+        currentTime = 0, // Current time in hundredths of a second
+        updateTimer = function() {
+            $stopwatch.html(formatTime(currentTime));
+            currentTime += incrementTime / 10;
+        },
+        init = function() {
+            $stopwatch = $('#stopwatch');
+            Example1.Timer = $.timer(updateTimer, incrementTime, true);
+        };
+    this.resetStopwatch = function() {
+        currentTime = 0;
+        this.Timer.stop().once();
+    };
+    $(init);
+});
+
+// Common functions
+function pad(number, length) {
+    var str = '' + number;
+    while (str.length < length) {str = '0' + str;}
+    return str;
+}
+function formatTime(time) {
+    var min = parseInt(time / 6000),
+        sec = parseInt(time / 100) - (min * 60),
+        hundredths = pad(time - (sec * 100) - (min * 6000), 2);
+    return (min > 0 ? pad(min, 2) : "00") + ":" + pad(sec, 2) + ":" + hundredths;
+}
+</script>
+</head>
+<body>
+<h1 style="text-align:center"><span id="stopwatch">00:00:00</span></h1>
+<form runat="server" id="form1">
+<div id="status" style="padding: 5px;">&nbsp;</div>
+</form>
+
+</body>
+</html>

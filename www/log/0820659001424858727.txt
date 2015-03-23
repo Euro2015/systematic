@@ -1,0 +1,44 @@
+ffmpeg version 2.1.1 Copyright (c) 2000-2013 the FFmpeg developers
+  built on Dec 20 2014 10:34:55 with gcc 4.7 (Debian 4.7.2-5)
+  configuration: --enable-gpl --enable-nonfree --enable-postproc --enable-pthreads --enable-x11grab --enable-swscale --enable-version3 --enable-shared --disable-yasm --enable-filter=movie --enable-frei0r --enable-libdc1394 --enable-libfaac --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-libfreetype --enable-libvorbis --enable-libgsm --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvpx --enable-libvo-amrwbenc --enable-libvo-aacenc --enable-libaacplus --enable-libxavs --enable-bzlib --enable-openssl --enable-gnutls --enable-openal --enable-libv4l2 --enable-libpulse --enable-libmodplug --enable-libass --enable-libcdio --enable-vdpau --enable-libbluray
+  libavutil      52. 48.101 / 52. 48.101
+  libavcodec     55. 39.101 / 55. 39.101
+  libavformat    55. 19.104 / 55. 19.104
+  libavdevice    55.  5.100 / 55.  5.100
+  libavfilter     3. 90.100 /  3. 90.100
+  libswscale      2.  5.101 /  2.  5.101
+  libswresample   0. 17.104 /  0. 17.104
+  libpostproc    52.  3.100 / 52.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/var/www/business-supermarket.com/web/www/temp/0820659001424858727.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    creation_time   : 2010-03-20 21:29:11
+    encoder         : HandBrake 0.9.4 2009112300
+  Duration: 00:00:05.57, start: 0.000000, bitrate: 551 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709), 560x320, 465 kb/s, 30 fps, 30 tbr, 90k tbn, 60 tbc (default)
+    Metadata:
+      creation_time   : 2010-03-20 21:29:11
+    Stream #0:1(eng): Audio: aac (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 83 kb/s (default)
+    Metadata:
+      creation_time   : 2010-03-20 21:29:11
+Please use -b:a or -b:v, -b is ambiguous
+Output #0, flv, to '/var/www/business-supermarket.com/web/www/upload/users/jag_1/videos/0820659001424858727.flv':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    encoder         : Lavf55.19.104
+    Stream #0:0(und): Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p, 512x384, q=2-31, 1000 kb/s, 1k tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2010-03-20 21:29:11
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 44100 Hz, mono, fltp, 128 kb/s (default)
+    Metadata:
+      creation_time   : 2010-03-20 21:29:11
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 -> flv)
+  Stream #0:1 -> #0:1 (aac -> libmp3lame)
+Press [q] to stop, [?] for help
+frame=   58 fps=0.0 q=2.5 size=     369kB time=00:00:01.98 bitrate=1524.1kbits/s    frame=  148 fps=148 q=4.5 size=     929kB time=00:00:04.93 bitrate=1542.6kbits/s    frame=  166 fps=151 q=4.3 Lsize=    1012kB time=00:00:05.58 bitrate=1484.8kbits/s    
+video:919kB audio:87kB subtitle:0 global headers:0kB muxing overhead 0.628348%

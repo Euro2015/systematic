@@ -1,0 +1,5 @@
+<style type="text/css">
+#registration-tabs a{background: #e6d7e8; color: #A84793; border-bottom:1px solid #AC5099; font-size: 16px;  height: 25px; line-height: 25px;}
+#registration-tabs a.active{background: #fff; color:#1DBFD8; border-bottom: 1px solid #fff;} 
+.user_listing_search{ margin-top:6px;}
+</style>

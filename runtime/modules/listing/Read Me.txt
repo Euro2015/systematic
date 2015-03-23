@@ -1,0 +1,160 @@
+
+1) Add  " listing " in config/main.php  as module list 
+
+2) Add below URL rule in urlManager 
+
+	'listing/<action:\w+>'=>'listing/listing/<action>',
+    	'listing/<action:\w+>/listid/<listid:\d+>'=>'listing/listing/<action>',
+	
+3) Please remove file ( ListingController.php ) in controller folder
+
+
+4) please add this css in style.css file.
+
+/* Date :12/08/2014 Css add by : Jitendra (Artifex online) */
+
+.video_player_container {background: none repeat scroll 0 0 #F1E5E2;border: 1px solid #CCCCCC;border-radius: 10px;height: 260px;margin-left: 10px;width: 320px;}
+.video_player_instances {height: 260px;width: 320px;}.sl-photograph.video_preview {display: none;}.progressbox {border: 1px solid #96BC33;border-radius: 3px;display: none;
+margin: -20% 15px 10px;padding: 0;position: absolute;text-align: left;width: 310px;}.progressbar {background-color: #96BC33;border-radius: 0;height: 20px;width: 1%;}
+.statustxt {color: #000000;display: inline-block;left: 50%;position: absolute;top: 3px;}.progressstatus {color: #A84793;margin-top: -16%;position: absolute;text-align: center;width: 340px;
+}
+.confirm{
+    background-color: #FFFFFF;
+    display: none;
+    margin-top: -12px;
+    position: absolute;
+    width:555px;
+    z-index:999;
+    height: 564px;
+}
+.confirm h2 {
+    color: #1DBFD8;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.orange-color {
+    color: #F19930;
+    font: 18px AuraBoldRegular,Helvetica,Arial;
+	text-align:center;
+}
+.confirm p{
+	text-align:center;
+}
+
+.pu-close-step2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    float: right;
+    line-height: 12px;
+    margin-right: 4px;
+    margin-top: -34px;
+    padding: 2px 2px;
+	font-size:12px;
+	line-height:15px;
+	box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+	-o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	-moz-text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	-o-text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.pu-close-step2:hover{ color:#000; border-color:#1dbfd8;}
+
+.uploading_1{
+      position: absolute;
+    text-align: center;
+    top: -20px;
+    width: 100%;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.uploading_2{
+      position: absolute;
+    text-align: center;
+    top: -20px;
+    width: 100%;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+
+
+
+.hiddenbox{ visibility:hidden; opacity:0;}
+.select-listing td{ font-size:9px;}
+
+.select-listing .chzn-container{ width:153px !important;}
+.select-listing .sl-select-space{ width:0 !important;}
+.select-listing .chzn-container{ font-size:11px;}
+.select-listing .chzn-container .chzn-single{ height:20px; line-height:20px;}
+.select-listing .chzn-container .chzn-drop{ width:151px !important;}
+.select-listing .chzn-container .chzn-search input[type=text]{ width:116px !important;}
+.select-listing .chzn-container .chzn-single span{ color:#777; font-size:10px;}
+
+
+.qq-uploader .qq-upload-button.black.button{ /*position:absolute !important; */left:120px; display:block; margin-top:20px;}
+
+.qq-upload-list li{ list-style:none;}
+
+
+.select-listing.business-listing .chzn-container{ width:162px !important;}
+.select-listing.business-listing .chzn-container .chzn-drop{ width:160px !important;}
+.select-listing.business-listing .chzn-container .chzn-search input[type=text]{ width:125px !important;}
+
+
+.center-button{ margin-top:20px; text-align:center;}
+.center-button a{ display:inline-block;}
+
+.success-popup{ position:absolute; left:170px;}
+
+.sl-page3 .pl-logo-box img#pl-logo{ float:none;}
+
+#page_nav.art-page-nav{ right:-4px;}
+
+ul#navlist.pager{ margin-top:-4px; width:300px;}
+
+ul#navlist li.selected a{ color:#00acce;}
+
+
+.period-select li{}
+.period-select li > span{ padding-right:10px; color:#a84793; float:left; padding-top:4px;}
+.period-select li .chzn-container{width:200px !important; float:left; text-align:left;}
+.period-select li .chzn-container .chzn-drop{ width:198px !important;}
+.period-select li .chzn-container .chzn-single{ line-height:21px;}
+
+.period-select li .chzn-container .chzn-drop .chzn-search input{ width:163px !important;}
+.period-select li .chzn-container li{ margin:0 !important;}
+
+
+.login-pop{ border:3px solid #ac5099; background:#fff; width:320px; padding:35px 25px 0; border-radius:25px; text-align:center; position:relative; margin:200px auto 0; left:100px;}
+.login-pop img{ position:absolute; top:-158px; left:80px;}
+
+.login-pop p{ text-align:center; font-size:10px;}
+.login-pop li{ list-style:none; margin-bottom:10px;}
+.login-pop li input[type=text]{ width:96%; padding:0 2%; border:1px solid #000; height:25px; line-height:25px; text-align:left;}
+.login-pop li a{ display:inline-block; text-align:right; font-size:10px;}
+
+.customer-offer .left-prevew{ width:65%; float:left;}
+.customer-offer .special-offer{ width:33%; float:right;}
+
+.special-offer .offer-box{ border:3px solid #a84793; border-radius:5px; padding:10px; text-align:center; display:table; height:222px; width:88%;}
+.special-offer .offer-box p{ display:table-cell; vertical-align:middle; font-size:18px; color:#737678; line-height:24px;}
+
+.preview-slider{ background:url(../images/slider_bg.png) left top no-repeat; width: 755px; height:305px; position:relative;}
+.preview-slider img{ position:absolute; right:30px; top:20px; max-width: 410px; height:260px; border-radius:15px; -moz-border-radius:15px; -o-border-radius:15px; -webkit-border-radius:15px;}
+
+.customer-offer .left-prevew .pl-testimonial li{ list-style:inside;}
+
+.pl-mrquestion p.pl-question{ padding-bottom:12px;}
+
+
+5) If video upload not working please check jQuery error after solve video working perfectly. please change the jquery.form.min.js sequence top to middle after jQuery
+
+

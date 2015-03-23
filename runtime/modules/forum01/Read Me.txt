@@ -1,0 +1,75 @@
+
+1) Add  " forum " in config/main.php  as module list 
+
+2) Add below URL rule in urlManager 
+
+	'forum' =>'forum/forum',
+        'forum/<controller:\w+>'=>'forum/<controller>',
+        'forum/<controller:\w+>/<action:\w+>' =>'forum/<controller>/<action>',
+        'forum/downloadAttachement/<commentId:\d+>'=>'forum/forum/downloadAttachement',
+
+3. Add the following code 
+
+<?php 
+
+if( ($model instanceof Userlisting) ){
+
+    $this->renderPartial('//../modules/forum/views/forum/page', array('listing' => $model, 'adminKey' => $adminKey));
+}
+
+?>
+
+ in runtime/modules/listing/views/listing/listing_view.php in line 254
+
+and 
+
+replace line 251 with the following code <div id="tab2" class="sign-up-tab_content forumPage">
+
+4.    Yii::app()->clientScript->registerCssFile(Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias('application.modules.forum.assets')) . '/css/forum.css');
+    Yii::app()->clientScript->registerScriptFile(Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias('application.modules.forum.assets')) . '/js/common.js');
+    Yii::app()->clientScript->registerScriptFile(Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias('application.modules.forum.assets')) . '/js/engine.js');
+
+in www\themes\business\views\layouts\main.php
+
+5. Add // Import Forum models
+                Yii::import('forum.models.*');
+                Yii::import('forum.components.*');
+
+ in runtime\modules\listing\ListingModule.php in init function
+
+
+6. Create comments directory under upload directory
+
+7. Create the email template 'forum_report_comment_as_spam'
+
+with the follwing subject : Listing No {{#LISTING_NUMBER#}} spam notice
+
+and the body :
+
+                Dear admin
+
+                The following comment was reported as spam:
+
+                Username: {{#COMMENT_OWNER#}}
+
+                Date: {{#COMMENT_DATE#}}
+
+                Comment:
+                {{#COMMENT_CONTENT#}}
+
+                {{#LISTING_OWNER#}}
+                {{#LISTING_TITLE#}}
+                {{#LISTING_LINK#}}
+
+                Note: This email address cannot accept replies.
+                Should you wish to contact us, then you may do so via the support@business-supermarket.com
+
+
+8. Add the following code $adminKey = isset($_REQUEST['h']) ? $_REQUEST['h'] : "";
+
+in runtime\modules\listing\controllers\ListingController.php
+
+also this line $this->render('listing_view', array('model'=>$model, 'adminKey' => $adminKey));
+
+9. Copy the css files tooltips.css and pardeep.css from the zip to the site.
+ 

@@ -1,0 +1,128 @@
+/**
+
+Copyright (C) 2009 Keith Levi Lumanog
+website: http://www.keithics.com
+email:   webmaster@keithics.com
+Skype: keithics
+
+portfolio: http://keithics.com/gallery.php
+
+notes:
+Please feel free to modify this file, and if you want to ask something or want me to help.. please don't hesitate to email me.
+I will try my best to help you out.
+
+**/
+
+/******************* main style- edit with care *********************/
+
+
+
+#wrap{
+	width:380px; 
+	text-align:center;
+	font-family:Arial;
+	font-size:12px;
+    height: 300px;
+}
+
+#title{
+	background-color:#333;
+	color:#FFF;
+	padding:5px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#title h1{
+	font-weight:normal;
+}
+
+.small{
+	font-size:12px;
+}
+
+#notice{
+	display:none;
+	padding:5px 10px;
+	position:absolute;
+	left:123px;
+	top:60px;
+}
+
+.uperror{
+	padding:5px 10px;
+	background-color:#C66;
+	color:#FFF;
+	margin-bottom:10px;
+}
+
+#content{
+}
+
+#uploaded{
+	
+}
+
+#div_upload_thumb img , #div_upload_big img{
+	border:#ccc solid 1px;
+}
+
+#div_upload_thumb{
+	
+}
+
+#div_upload_big{
+	background:url("../images/avatar.jpg") no-repeat center top;
+	width:175px;
+       margin:0 auto;
+}
+
+#div_upload_big img {
+	height:105px;
+}
+
+#upload_thumb{
+	display:none;
+	margin-top:20px;
+	text-align:center;
+	
+	padding:5px;
+}
+
+#uploaded{
+	
+}
+
+#thumbnail{
+	float:left;
+	width:150px;
+	padding-left:10px;
+}
+
+#details{
+	font-size:11px;
+	font-weight:bold;
+}
+
+#preview{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+}
+
+
+/*********************/
+
+#about_details{
+	display:none;
+	background-color:#E2E2E2;
+	border:#CCC solid 1px;
+	padding:10px;
+	margin:20px 10px;
+}
+.listing_logo
+{ 
+	color:#808080 !important;
+	height:107px !important;
+	width:164px !important;
+} 

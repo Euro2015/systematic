@@ -1,0 +1,158 @@
+<?php 
+class SharedFunctions {
+    
+    /**   $replceString = array(
+            '{{#USERNAME#}}'=>'',
+            '{{#COMPANY_NAME#}}'=>'',
+            '{{#COMPANY_EMAIL#}}'=>'',
+            '{{#COMPANY_ADDRESS#}}'=>'',
+            '{{#BASEURL#}}'=>'',
+            '{{#THEME_BASEURL#}}'=>'',
+            '{{#ACCOUNT_ACTIVATION_LINK#}}'=>'',
+            '{{#COMPANY_SIGNATURE#}}'=>''
+        );
+    **/
+    
+    public static function app() {
+        return new SharedFunctions();
+    } 
+     
+    public static function sendmail($to="",$subject="",$body="",$attachment = "",$cc=false,$from="") {
+        
+        $mail = new YiiMailer();  
+        
+        // Check From mail set or not
+        
+        if(is_array($from)){
+            $mail->setFrom($from,Yii::app()->params['company_name']);
+        }
+        else if($from =="") {
+           $mail->setFrom(Yii::app()->params['noreply_email'],Yii::app()->params['company_name']);
+        }
+        
+        // check to mail  more then one persone
+        if($to !="" || !empty($to)){
+            $mail->setTo($to);
+        } 
+        
+        
+        // check if any mail sent to cc more then one person
+        if($cc!="" || !empty($cc)){
+            $mail->setCc($cc);
+        }        
+        
+        
+        // Check subject is empty
+        if($subject !=""){
+            $mail->setSubject($subject);            
+        }
+        
+        // Check any attachment or not
+        if($attachment !="" || !empty($attachment)){
+            $mail->setAttachment($attachment);
+        }
+        
+        // check body empty or not
+        if($body !="" || !empty($body)){
+           $newstring = str_replace("{{BR}}","<br />",$body);  
+           $mail->setBody($newstring);
+        }
+        
+        
+        if($mail->send()){
+            return true;
+        }
+        return false;
+    }
+
+    public static function mailStringReplace($string="",$replceString=""){
+        
+        if(is_array($replceString)){
+            
+            $newstring = $string;
+            
+            foreach($replceString as $key=>$val){
+               $newstring =  str_replace($key,$val,$newstring); 
+               
+            }
+            
+        }
+        return $newstring;
+    }
+    
+    public static function randvalue(){
+        
+        $random = substr(str_replace(" ","",date('Y m d')),0,10).substr(md5(time()),1,5).substr(str_replace(".","",CHttpRequest::getUserHostAddress()),0,15).md5(substr(number_format(time() * rand(),0,'',''),0,5));  
+        return $random;      
+        
+    }
+    
+    
+    /*Password check*/
+    
+    public static function encrypt_code($string){
+        
+       if($string !=""){ 
+        return  md5($string);
+    }
+        
+    }
+    
+    public static function validateEmail($email) {
+            return filter_var($email, FILTER_VALIDATE_EMAIL);
+    }
+    
+    public static function check_captch($val){
+        
+        if ($securimage->check($val) == false) {
+            echo CJSON::encode(array('success'=>false,'message'=>"Incorrect security code entered !",'captcha'=>true));
+            Yii::app()->end();
+        }
+    }
+    
+    public static function insert_log($arrayData){
+        
+        if(is_array($arrayData)){ 
+             $log = new Logtransaction(); 
+             $log->member_id  = $arrayData['member_id'];
+             $log->log_id = $arrayData['log_id'];
+             $log->transaction_description =  $arrayData['description'];
+             $log->transaction_date = date('Y-m-d h:i:s'); 
+             $log->save();  
+        }
+        
+    }
+    
+    public static function age($birthday){
+            
+             list($day,$month,$year) = explode("/",$birthday);
+            
+             $year_diff  = date("Y") - $year;
+            
+             $month_diff = date("m") - $month;
+            
+             $day_diff   = date("d") - $day;
+            
+             if ($day_diff < 0 && $month_diff==0){$year_diff--;}
+            
+             if ($day_diff < 0 && $month_diff < 0){$year_diff--;}
+            
+             return $year_diff;
+  }
+
+  public static function calculateage($dob){
+        $dob = date("Y-m-d",strtotime($dob));
+        $dobObject = new DateTime($dob);
+        $nowObject = new DateTime();
+        $diff = $dobObject->diff($nowObject);
+        return $diff->y;
+    }
+
+  function first_last_date($d=''){
+      $d = $d?$d:time();
+      $f = mktime(0,0,0,date("n",$d),1,date("Y",$d));
+      $l = mktime(0,0,0,date("n",$d),date("t",$d),date("Y",$d));
+      return array($f,$l);
+  } 
+}
+?>

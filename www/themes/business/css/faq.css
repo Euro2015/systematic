@@ -1,0 +1,18 @@
+/*  Theme Name: BusinessSupermarketTheme 
+    URI: http://www.business-supermarket.com 
+	Additional banner advert slider styles
+    Module name:
+    Module revision:
+    Author: 
+    Author email: 
+    Date: 
+    Version No:
+*/
+
+.close_caform_faq {
+    position: relative;
+    float:right;
+    margin: -17px 24px 0 0;
+    z-index: 100;
+}
+

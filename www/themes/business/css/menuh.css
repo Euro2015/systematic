@@ -1,0 +1,123 @@
+
+#menuh-container
+	{
+	position: relative;		
+	left: 10px;
+	}
+
+#menuh
+	{
+float: left;
+font-family: AuraLightRegular,arial,helvetica,sans-serif;
+/*font-weight: bold;*/
+margin: 1em 2em 2em;
+text-align: left;
+width: 100%;
+font-size: 1.2em;
+	}
+		
+#menuh a
+	{
+	
+	text-align: left;
+	display:block;
+	border: 0px solid #56BEE5;
+	white-space:nowrap;
+	margin:0;
+	padding: 8px;
+	}
+	
+#menuh a:link, #menuh a:visited, #menuh a:active	/* menu at rest */
+	{
+	color: grey;
+	/* background-color: #0040FF;		 royal blue */
+	text-decoration:none;
+	}
+	
+#menuh a:hover						/* menu on mouse-over  */
+	{
+	color: #56BEE5;
+	/* background-color: #668CFF;	cornflowerblue */
+	text-decoration:none;
+	}	
+
+#menuh ul
+	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	/* width:9em;	width of all menu boxes */
+	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menuh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+	}
+
+#menuh li
+	{
+	position:relative;
+	min-height: 1px;		/* Sophie Dennis contribution for IE7 */
+	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
+	width:auto;
+	}
+        
+#menuh li.active a {
+	color: #00acce;
+}
+
+#menuh li.separator {
+	color:#00acce;
+	position:relative;
+	top:8px;
+	min-height: 1px;		/* Sophie Dennis contribution for IE7 */
+	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
+}
+
+/* #menuh ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	padding: 10px;
+	text-align:left;
+	margin:0 0 0 0;
+	background-image:url('../AppData/Roaming/Adobe/Dreamweaver CS6/en_US/Configuration/Temp/images/menu-background.png');
+	background-repeat:repeat;
+	width:150px;
+	}
+*/
+#menuh ul ul ul
+	{
+	top:0;
+	left:100%;
+	margin:0;
+	padding:0;
+	}
+/*
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	background-image:url('../AppData/Roaming/Adobe/Dreamweaver CS6/en_US/Configuration/Temp/images/menu-background.png');
+	background-repeat:repeat;
+	}
+*/
+div#menuh li.separator:hover
+	{
+	cursor:auto;
+	z-index:100;
+	}
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul
+{display:none;}
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul
+{display:block;}
+
+/* End CSS Drop Down Menu */

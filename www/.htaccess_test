@@ -1,0 +1,24 @@
+Options +FollowSymLinks
+IndexIgnore */*
+
+RewriteEngine on
+
+php_value post_max_size 800M
+php_value upload_max_filesize 800M
+php_value max_execution_time 60000000
+php_value max_input_time 25920000
+php_value session.gc_maxlifetime 12000
+php_value memory_limit 800M
+php_value session.gc_maxlifetime 12000
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+
+#RewriteCond $1 !^(index\.php|robots\.txt)
+#RewriteRule ^(.*)$ index.php/$1 [L] 
+
+
